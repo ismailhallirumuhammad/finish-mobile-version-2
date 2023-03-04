@@ -1,0 +1,108 @@
+
+* {
+    box-sizing: border-box;
+}
+
+#container {
+    width: 375px;
+    border: 1px solid;
+    background-color:  #6070FF;
+    border-top-left-radius: 105px;
+    display: flex;
+    flex-direction: column;
+    padding: 0 10px;
+    margin: 0 auto;
+}
+
+h1 {
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 3.2em;
+    line-height: 52px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: #FFFFFF;
+    margin-top: 30%;
+}
+
+p {        
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 1.4em;
+    line-height: 28px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: #EBEBFF;
+    margin: 0 auto;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 40px;
+}
+
+label {
+    display: block;
+}
+
+input, textarea {
+    width: 350px;
+    background: #FFFFFF;
+    border: 1px solid #CFD8DC;
+    border-radius: 8px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 1em;
+    line-height: 24px;
+    margin-bottom: 20px;
+    padding: 10px;
+    outline: none;
+    font-family: 'Poppins', sans-serif;
+}
+
+button {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    line-height: 24px;
+    text-align: center;
+    letter-spacing: 0.03em;
+    font-family: 'Poppins', sans-serif;
+    color: #6070FF;
+    padding: 12px;
+    width: 142px;
+    height: 48px;
+    background: #FFFFFF;
+    border-radius: 8px;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 1.1em;
+    outline: none;
+    border: none;
+    align-self: flex-start;
+}
+
+button:hover {
+    background-color: #6070FF;
+    color: #FFF;
+    border: 1px solid #FFF;
+}
+
+.shape {
+    width: 134px;
+    height: 5px;
+    background: #0D151E;
+    border-radius: 10px;
+    margin: 7.5% auto 2%;
+}
